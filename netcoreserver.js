@@ -10,7 +10,7 @@ import "./config/mongodb.js";
 const app = express();
 
 app.use(cors({
-    origin:"https://netcoresoftware.onrender.com",
+    origin:"https://netcore-website.onrender.com",
     credentials: true
 }));
 
